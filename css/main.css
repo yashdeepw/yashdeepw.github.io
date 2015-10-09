@@ -1,0 +1,68 @@
+body {
+  background-color: #c6e2ff;
+}
+
+.header {
+  font-family: Cursive, Tahoma, Verdana, Minion Web;
+  font-size: 4em;
+  color: #00f;
+  text-align: center;
+}
+
+ul div {
+  background-color: #87a3fa;
+  border-radius: 10px;
+  width: 720px;
+  height: 70px;
+  margin: 20px 0px 20px 100px;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+ul div li a div {
+  background-color: #87a3fa;
+  margin: 10px 10px 10px 50px;
+  height: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.navbar {
+  position: relative;
+  height: 40px;
+}
+
+.nav {
+  font-size: 2em;
+  display: inline-block;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+  color: black;
+}
+
+#home {
+  width: 100px;
+}
+
+#about {
+  width: 100px;
+}
+
+#port {
+  width: 130px;
+}
+
+#contact {
+  width: 120px;
+}
+
+div div:hover {
+  background-color: #c6e2ff;
+  border-radius: 10px;
+}
