@@ -3,10 +3,14 @@ body {
 }
 
 .header {
-  font-family: Cursive, Tahoma, Verdana, Minion Web;
+  font-family: Lobster, Cursive;
   font-size: 4em;
   color: #00f;
+  position: fixed;
+  margin-top: -10px;
   text-align: center;
+  background-color: #c6e2ff;
+  width: 100%;
 }
 
 ul div {
@@ -14,7 +18,8 @@ ul div {
   border-radius: 10px;
   width: 720px;
   height: 70px;
-  margin: 20px 0px 20px 100px;
+  margin: 100px 0px 20px 100px;
+  position: fixed;
 }
 
 ul > li {
@@ -66,6 +71,7 @@ div div:hover {
   background-color: #c6e2ff;
   border-radius: 10px;
 }
-#place{
+
+#place {
   height: 3000px;
 }
