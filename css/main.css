@@ -1,77 +1,18 @@
+#home>h1{
+  position:relative;
+  color:black;
+  font-size:5em;
+  margin-top:25%;
+}
+
+.white:hover {
+  color: gray;
+}
+
+.white {
+  color: white;
+}
+
 body {
-  background-color: #c6e2ff;
-}
-
-.header {
-  font-family: Lobster, Cursive;
-  font-size: 4em;
-  color: #00f;
-  position: fixed;
-  margin-top: -10px;
-  text-align: center;
-  background-color: #c6e2ff;
-  width: 100%;
-}
-
-ul div {
-  background-color: #87a3fa;
-  border-radius: 10px;
-  width: 720px;
-  height: 70px;
-  margin: 100px 0px 20px 100px;
-  position: fixed;
-}
-
-ul > li {
-  list-style-type: none;
-}
-
-ul div li a div {
-  background-color: #87a3fa;
-  margin: 10px 10px 10px 50px;
-  height: 10px;
-  text-align: center;
-  display: inline-block;
-  border-radius: 10px;
-}
-
-.navbar {
-  position: relative;
-  height: 40px;
-}
-
-.nav {
-  font-size: 2em;
-  display: inline-block;
-}
-
-a,
-a:hover {
-  text-decoration: none !important;
-  color: black;
-}
-
-#home {
-  width: 100px;
-}
-
-#about {
-  width: 100px;
-}
-
-#port {
-  width: 130px;
-}
-
-#contact {
-  width: 120px;
-}
-
-div div:hover {
-  background-color: #c6e2ff;
-  border-radius: 10px;
-}
-
-#place {
-  height: 3000px;
+  padding-top: 70px;
 }
